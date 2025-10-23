@@ -209,3 +209,50 @@ footer {
     margin-top: 0.25rem;
     display: block;
 }
+
+/* Accessibility Enhancements */
+:root {
+  --color-primary: #2c5282;
+  --color-primary-dark: #1a365d;
+  --color-text: #2d3748;
+  --color-background: #ffffff;
+}
+
+/* Dark Mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-primary: #90cdf4;
+    --color-primary-dark: #63b3ed;
+    --color-text: #f7fafc;
+    --color-background: #1a202c;
+  }
+}
+
+/* High Contrast Mode */
+@media (forced-colors: active) {
+  :root {
+    --color-primary: CanvasText;
+    --color-background: Canvas;
+  }
+}
+
+/* Focus Styles */
+*:focus {
+  outline: 3px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+/* Skip Link */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: var(--color-primary);
+  color: var(--color-background);
+  padding: 8px;
+  z-index: 100;
+}
+
+.skip-link:focus {
+  top: 0;
+}
