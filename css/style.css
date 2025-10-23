@@ -1,0 +1,196 @@
+/* Reset e variáveis */
+:root {
+  --color-primary: #2c5282;
+  --color-primary-dark: #1a365d;
+  --color-secondary: #38a169;
+  --color-text: #2d3748;
+  --color-background: #ffffff;
+  --color-gray-light: #f7fafc;
+  --font-primary: system-ui, -apple-system, sans-serif;
+  --spacing-small: 0.5rem;
+  --spacing-medium: 1rem;
+  --spacing-large: 2rem;
+}
+
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-primary);
+  color: var(--color-text);
+  line-height: 1.5;
+  background: var(--color-background);
+}
+
+/* Layout e containers */
+header {
+  background: var(--color-primary);
+  padding: var(--spacing-medium);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+nav ul {
+  display: flex;
+  gap: var(--spacing-large);
+  list-style: none;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--spacing-large);
+}
+
+section {
+  margin-bottom: var(--spacing-large);
+}
+
+/* Navegação */
+nav a {
+  color: var(--color-background);
+  text-decoration: none;
+  padding: var(--spacing-small);
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+nav a:hover, 
+nav a[aria-current="page"] {
+  background-color: var(--color-primary-dark);
+}
+
+/* Tipografia */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: var(--spacing-large);
+  color: var(--color-primary);
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: var(--spacing-medium);
+  color: var(--color-primary);
+}
+
+p {
+  margin-bottom: var(--spacing-medium);
+}
+
+/* Imagens */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Imagens específicas */
+nav img {
+  border-radius: 0;
+}
+
+main img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Cards e artigos */
+article {
+  background: var(--color-gray-light);
+  padding: var(--spacing-large);
+  border-radius: 8px;
+  margin-bottom: var(--spacing-large);
+}
+
+/* Formulários */
+form {
+  display: grid;
+  gap: var(--spacing-medium);
+}
+
+fieldset {
+  border: 1px solid var(--color-primary);
+  padding: var(--spacing-large);
+  border-radius: 8px;
+  margin-bottom: var(--spacing-large);
+}
+
+legend {
+  padding: 0 var(--spacing-small);
+  color: var(--color-primary);
+}
+
+label {
+  display: block;
+  margin-bottom: var(--spacing-small);
+  font-weight: 500;
+}
+
+input {
+  width: 100%;
+  padding: var(--spacing-small);
+  border: 1px solid #cbd5e0;
+  border-radius: 4px;
+  margin-bottom: var(--spacing-medium);
+}
+
+button {
+  background: var(--color-secondary);
+  color: white;
+  padding: var(--spacing-medium) var(--spacing-large);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background: #2f855a;
+}
+
+/* Footer */
+footer {
+  background: var(--color-primary);
+  color: var(--color-background);
+  text-align: center;
+  padding: var(--spacing-medium);
+  margin-top: var(--spacing-large);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    text-align: center;
+    gap: var(--spacing-medium);
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: var(--spacing-medium);
+  }
+
+  main {
+    padding: var(--spacing-medium);
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+}
