@@ -1,86 +1,101 @@
-# ONG Esperança
+# ONG Esperança 🌟
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Version](https://img.shields.io/badge/version-1.0.0-green.svg)
+![Licença](https://img.shields.io/badge/licença-MIT-blue.svg)
+![Versão](https://img.shields.io/badge/versão-1.0.0-green.svg)
 
-## 🎯 About
+## 📌 Sobre o Projeto
 
-ONG Esperança is a non-profit organization website focused on promoting education and citizenship in underprivileged communities.
+A ONG Esperança é uma plataforma web desenvolvida para promover educação e cidadania em comunidades carentes. Nossa missão é conectar voluntários e beneficiários através de uma interface acessível e intuitiva.
 
-## 🚀 Features
+## 🚀 Funcionalidades
 
-- Responsive design
-- Accessible interface (WCAG 2.1 AA compliant)
-- Form validation
-- Dark mode support
-- High contrast version
+- Design responsivo para todos os dispositivos
+- Interface acessível (WCAG 2.1 nível AA)
+- Validação de formulários com máscaras
+- Modo escuro automático
+- Versão de alto contraste
+- Suporte completo para leitores de tela
 
-## 🛠️ Technologies
+## 🛠️ Tecnologias Utilizadas
 
-- HTML5
-- CSS3
-- JavaScript
-- IMask.js
+- HTML5 Semântico
+- CSS3 com variáveis
+- JavaScript Vanilla
+- IMask.js para máscaras de formulário
 
-## 📦 Installation
+## ⚙️ Instalação
 
-1. Clone the repository:
+1. Clone o repositório:
 ```bash
-git clone https://github.com/yourusername/projeto-ong.git
+git clone https://github.com/renilson-medeiros/projeto-ong-esperanca.git
 ```
 
-2. Navigate to project directory:
+2. Acesse a pasta do projeto:
 ```bash
-cd projeto-ong
+cd projeto-ong-esperanca
 ```
 
-3. Open index.html in your browser
+3. Abra o arquivo index.html no navegador
 
-## 🎨 Accessibility Features
+## 🎨 Recursos de Acessibilidade
 
-- Keyboard navigation support
-- ARIA labels
-- Semantic HTML structure
-- Color contrast ratio > 4.5:1
-- Screen reader compatible
-- Dark mode and high contrast options
+- Navegação completa por teclado
+- Etiquetas ARIA
+- Estrutura HTML semântica
+- Contraste de cores adequado (>4.5:1)
+- Compatível com leitores de tela
+- Opções de modo escuro e alto contraste
 
-## 🔄 Git Workflow
+## 🔄 Fluxo de Trabalho Git
 
-We follow the GitFlow branching strategy:
+Seguimos a estratégia GitFlow:
 
-- `main`: Production releases
-- `develop`: Development integration
-- `feature/*`: New features
-- `hotfix/*`: Emergency fixes
-- `release/*`: Release preparation
+- `main`: Versões de produção
+- `develop`: Integração de desenvolvimento
+- `feature/*`: Novas funcionalidades
+- `hotfix/*`: Correções urgentes
+- `release/*`: Preparação de releases
 
-## 📝 Commit Convention
+## 📝 Convenção de Commits
 
-We follow the Conventional Commits specification:
+Utilizamos a especificação Conventional Commits:
 
-- `feat`: New features
-- `fix`: Bug fixes
-- `docs`: Documentation changes
-- `style`: Code style changes
-- `refactor`: Code refactoring
-- `test`: Test updates
-- `chore`: Build/maintenance updates
+- `feat`: Novas funcionalidades
+- `fix`: Correções de bugs
+- `docs`: Alterações na documentação
+- `style`: Alterações de estilo
+- `refactor`: Refatorações de código
+- `test`: Atualizações de testes
+- `chore`: Atualizações de build
 
-## 👥 Contributing
+## 👥 Como Contribuir
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'feat: Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+1. Faça um Fork do projeto
+2. Crie uma branch para sua funcionalidade (`git checkout -b feature/MinhaFuncionalidade`)
+3. Commit suas alterações (`git commit -m 'feat: Adiciona nova funcionalidade'`)
+4. Push para a branch (`git push origin feature/MinhaFuncionalidade`)
+5. Abra um Pull Request
 
-## 📄 License
+## 📋 Requisitos de Sistema
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- Navegador moderno (Chrome, Firefox, Safari ou Edge)
+- JavaScript habilitado
+- Conexão com internet para carregar fontes e bibliotecas externas
 
-## 📞 Contact
+## 🔍 Status do Projeto
 
-Your Name - [@yourusername](https://twitter.com/yourusername)
+- [x] Estrutura HTML Semântica
+- [x] Estilização CSS Responsiva
+- [x] Validação de Formulários
+- [x] Acessibilidade WCAG 2.1 AA
+- [x] Otimização para Produção
 
-Project Link: [https://github.com/yourusername/projeto-ong](https://github.com/yourusername/projeto-ong)
+## 📄 Licença
+
+Este projeto está sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
+
+## 📞 Contato
+
+Seu Nome - [renilson.medeiros96@outlook.com](mailto:renilson.medeiros96@outlook.com)
+
+Link do Projeto: [https://github.com/renilson-medeiros/projeto-ong-esperanca](https://github.com/renilson-medeiros/projeto-ong-esperanca)
